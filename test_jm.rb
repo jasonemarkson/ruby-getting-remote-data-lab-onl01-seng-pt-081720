@@ -1,1 +1,1 @@
-require_relative lib/get_requester.rb 
+require_relative 'lib/get_requester.rb'
