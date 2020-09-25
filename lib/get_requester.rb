@@ -22,7 +22,7 @@ class GetRequester
   def parse_json
     structure = JSON.parse(self.get_response_body)
     structure.each do |x|
-      #binding.pry
+      binding.pry
     end
   end
   
